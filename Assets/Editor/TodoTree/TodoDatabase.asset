@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _groups:
   - title: Polymorphism
-    note: This category if for everything in Polymorphism area
+    note: This category is for everything in Polymorphism area
     tag:
       name: TODO
       color: {r: 1, g: 0.9, b: 0.19, a: 1}
@@ -22,7 +22,38 @@ MonoBehaviour:
     reference: {fileID: 0}
     isVisible: 1
     _todos:
-    - title: Make 3D title in Maya
+    - title: write scripts for "scene" animation
+      description: write scripts for "scene" animation
+      progress:
+        status: Active
+        color: {r: 0, g: 1, b: 0.67, a: 1}
+        index: 1
+      priority:
+        name: Major
+        color: {r: 1, g: 0.2, b: 0.2, a: 1}
+        index: 3
+      isVisible: 1
+  - title: Inheritance
+    note: 
+    tag:
+      name: TODO
+      color: {r: 1, g: 0.9, b: 0.19, a: 1}
+      index: 0
+    reference: {fileID: 0}
+    isVisible: 1
+    _todos:
+    - title: write scripts for "scene" animation
+      description: write scripts for "scene" animation
+      progress:
+        status: Active
+        color: {r: 0, g: 1, b: 0.67, a: 1}
+        index: 1
+      priority:
+        name: Major
+        color: {r: 1, g: 0.2, b: 0.2, a: 1}
+        index: 3
+      isVisible: 1
+    - title: Make 3D title in Maya and import into Unity project
       description: Make 3D title in Maya and import into Unity project
       progress:
         status: Active
@@ -33,14 +64,65 @@ MonoBehaviour:
         color: {r: 0, g: 1, b: 0.32, a: 1}
         index: 2
       isVisible: 1
-    - title: TODO 2
-      description: 
+  - title: Encapsulation
+    note: 
+    tag:
+      name: TODO
+      color: {r: 1, g: 0.9, b: 0.19, a: 1}
+      index: 0
+    reference: {fileID: 0}
+    isVisible: 1
+    _todos:
+    - title: Make 3D title in Maya and import into Unity project
+      description: Make 3D title in Maya and import into Unity project
       progress:
         status: Active
         color: {r: 0, g: 1, b: 0.67, a: 1}
         index: 1
       priority:
-        name: Minor
-        color: {r: 1, g: 0.72, b: 0, a: 1}
+        name: Medium
+        color: {r: 0, g: 1, b: 0.32, a: 1}
+        index: 2
+      isVisible: 1
+    - title: write scripts for "scene" animation
+      description: write scripts for "scene" animation
+      progress:
+        status: Active
+        color: {r: 0, g: 1, b: 0.67, a: 1}
         index: 1
+      priority:
+        name: Major
+        color: {r: 1, g: 0.2, b: 0.2, a: 1}
+        index: 3
+      isVisible: 1
+  - title: Abstraction
+    note: 
+    tag:
+      name: TODO
+      color: {r: 1, g: 0.9, b: 0.19, a: 1}
+      index: 0
+    reference: {fileID: 0}
+    isVisible: 1
+    _todos:
+    - title: Make 3D title in Maya and import into Unity project
+      description: Make 3D title in Maya and import into Unity project
+      progress:
+        status: Active
+        color: {r: 0, g: 1, b: 0.67, a: 1}
+        index: 1
+      priority:
+        name: Medium
+        color: {r: 0, g: 1, b: 0.32, a: 1}
+        index: 2
+      isVisible: 1
+    - title: write scripts for "scene" animation
+      description: write scripts for "scene" animation
+      progress:
+        status: Active
+        color: {r: 0, g: 1, b: 0.67, a: 1}
+        index: 1
+      priority:
+        name: Major
+        color: {r: 1, g: 0.2, b: 0.2, a: 1}
+        index: 3
       isVisible: 1
