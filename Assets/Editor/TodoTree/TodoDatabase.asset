@@ -53,17 +53,6 @@ MonoBehaviour:
         color: {r: 1, g: 0.2, b: 0.2, a: 1}
         index: 3
       isVisible: 1
-    - title: Make 3D title in Maya and import into Unity project
-      description: Make 3D title in Maya and import into Unity project
-      progress:
-        status: Active
-        color: {r: 0, g: 1, b: 0.67, a: 1}
-        index: 1
-      priority:
-        name: Medium
-        color: {r: 0, g: 1, b: 0.32, a: 1}
-        index: 2
-      isVisible: 1
   - title: Encapsulation
     note: 
     tag:

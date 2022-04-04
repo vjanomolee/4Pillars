@@ -1,99 +1,269 @@
 fileFormatVersion: 2
 guid: 6e8b43f1abfce6244b220c67fb6408a6
-timeCreated: 1503919948
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Bear_Head_JawEndSHJnt
-    100002: Bear_Head_JawSHJnt
-    100004: Bear_Head_TopSHJnt
-    100006: //RootNode
-    100008: Bear_l_Clavicle_01_01SHJnt
-    100010: Bear_l_Ear_01_01SHJnt
-    100012: Bear_l_Ear_01_02SHJnt
-    100014: Bear_l_FrontLeg_AnkleSHJnt
-    100016: Bear_l_FrontLeg_BallSHJnt
-    100018: Bear_l_FrontLeg_HipSHJnt
-    100020: Bear_l_FrontLeg_KneeSHJnt
-    100022: Bear_l_FrontLeg_ToeSHJnt
-    100024: Bear_l_HindLeg_AnkleSHJnt
-    100026: Bear_l_HindLeg_BallSHJnt
-    100028: Bear_l_HindLeg_HipSHJnt
-    100030: Bear_l_HindLeg_KneeSHJnt
-    100032: Bear_l_HindLeg_ToeSHJnt
-    100034: Bear_MAINSHJnt
-    100036: Bear_Neck_01SHJnt
-    100038: Bear_Neck_02SHJnt
-    100040: Bear_Neck_TopSHJnt
-    100042: Bear_r_Clavicle_01_01SHJnt
-    100044: Bear_r_Ear_01_01SHJnt
-    100046: Bear_r_Ear_01_02SHJnt
-    100048: Bear_r_FrontLeg_AnkleSHJnt
-    100050: Bear_r_FrontLeg_BallSHJnt
-    100052: Bear_r_FrontLeg_HipSHJnt
-    100054: Bear_r_FrontLeg_KneeSHJnt
-    100056: Bear_r_FrontLeg_ToeSHJnt
-    100058: Bear_r_HindLeg_AnkleSHJnt
-    100060: Bear_r_HindLeg_BallSHJnt
-    100062: Bear_r_HindLeg_HipSHJnt
-    100064: Bear_r_HindLeg_KneeSHJnt
-    100066: Bear_r_HindLeg_ToeSHJnt
-    100068: Bear_ROOTSHJnt
-    100070: Bear_Spine_01SHJnt
-    100072: Bear_Spine_02SHJnt
-    100074: Bear_Spine_03SHJnt
-    100076: Bear_Spine_04SHJnt
-    100078: Bear_Spine_TopSHJnt
-    100080: Bear_Tail_01_01SHJnt
-    100082: Bear_Tail_01_02SHJnt
-    400000: Bear_Head_JawEndSHJnt
-    400002: Bear_Head_JawSHJnt
-    400004: Bear_Head_TopSHJnt
-    400006: //RootNode
-    400008: Bear_l_Clavicle_01_01SHJnt
-    400010: Bear_l_Ear_01_01SHJnt
-    400012: Bear_l_Ear_01_02SHJnt
-    400014: Bear_l_FrontLeg_AnkleSHJnt
-    400016: Bear_l_FrontLeg_BallSHJnt
-    400018: Bear_l_FrontLeg_HipSHJnt
-    400020: Bear_l_FrontLeg_KneeSHJnt
-    400022: Bear_l_FrontLeg_ToeSHJnt
-    400024: Bear_l_HindLeg_AnkleSHJnt
-    400026: Bear_l_HindLeg_BallSHJnt
-    400028: Bear_l_HindLeg_HipSHJnt
-    400030: Bear_l_HindLeg_KneeSHJnt
-    400032: Bear_l_HindLeg_ToeSHJnt
-    400034: Bear_MAINSHJnt
-    400036: Bear_Neck_01SHJnt
-    400038: Bear_Neck_02SHJnt
-    400040: Bear_Neck_TopSHJnt
-    400042: Bear_r_Clavicle_01_01SHJnt
-    400044: Bear_r_Ear_01_01SHJnt
-    400046: Bear_r_Ear_01_02SHJnt
-    400048: Bear_r_FrontLeg_AnkleSHJnt
-    400050: Bear_r_FrontLeg_BallSHJnt
-    400052: Bear_r_FrontLeg_HipSHJnt
-    400054: Bear_r_FrontLeg_KneeSHJnt
-    400056: Bear_r_FrontLeg_ToeSHJnt
-    400058: Bear_r_HindLeg_AnkleSHJnt
-    400060: Bear_r_HindLeg_BallSHJnt
-    400062: Bear_r_HindLeg_HipSHJnt
-    400064: Bear_r_HindLeg_KneeSHJnt
-    400066: Bear_r_HindLeg_ToeSHJnt
-    400068: Bear_ROOTSHJnt
-    400070: Bear_Spine_01SHJnt
-    400072: Bear_Spine_02SHJnt
-    400074: Bear_Spine_03SHJnt
-    400076: Bear_Spine_04SHJnt
-    400078: Bear_Spine_TopSHJnt
-    400080: Bear_Tail_01_01SHJnt
-    400082: Bear_Tail_01_02SHJnt
-    7400000: Bear_idle
-    9500000: //RootNode
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bear_Head_JawEndSHJnt
+  - first:
+      1: 100002
+    second: Bear_Head_JawSHJnt
+  - first:
+      1: 100004
+    second: Bear_Head_TopSHJnt
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      1: 100008
+    second: Bear_l_Clavicle_01_01SHJnt
+  - first:
+      1: 100010
+    second: Bear_l_Ear_01_01SHJnt
+  - first:
+      1: 100012
+    second: Bear_l_Ear_01_02SHJnt
+  - first:
+      1: 100014
+    second: Bear_l_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100016
+    second: Bear_l_FrontLeg_BallSHJnt
+  - first:
+      1: 100018
+    second: Bear_l_FrontLeg_HipSHJnt
+  - first:
+      1: 100020
+    second: Bear_l_FrontLeg_KneeSHJnt
+  - first:
+      1: 100022
+    second: Bear_l_FrontLeg_ToeSHJnt
+  - first:
+      1: 100024
+    second: Bear_l_HindLeg_AnkleSHJnt
+  - first:
+      1: 100026
+    second: Bear_l_HindLeg_BallSHJnt
+  - first:
+      1: 100028
+    second: Bear_l_HindLeg_HipSHJnt
+  - first:
+      1: 100030
+    second: Bear_l_HindLeg_KneeSHJnt
+  - first:
+      1: 100032
+    second: Bear_l_HindLeg_ToeSHJnt
+  - first:
+      1: 100034
+    second: Bear_MAINSHJnt
+  - first:
+      1: 100036
+    second: Bear_Neck_01SHJnt
+  - first:
+      1: 100038
+    second: Bear_Neck_02SHJnt
+  - first:
+      1: 100040
+    second: Bear_Neck_TopSHJnt
+  - first:
+      1: 100042
+    second: Bear_r_Clavicle_01_01SHJnt
+  - first:
+      1: 100044
+    second: Bear_r_Ear_01_01SHJnt
+  - first:
+      1: 100046
+    second: Bear_r_Ear_01_02SHJnt
+  - first:
+      1: 100048
+    second: Bear_r_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100050
+    second: Bear_r_FrontLeg_BallSHJnt
+  - first:
+      1: 100052
+    second: Bear_r_FrontLeg_HipSHJnt
+  - first:
+      1: 100054
+    second: Bear_r_FrontLeg_KneeSHJnt
+  - first:
+      1: 100056
+    second: Bear_r_FrontLeg_ToeSHJnt
+  - first:
+      1: 100058
+    second: Bear_r_HindLeg_AnkleSHJnt
+  - first:
+      1: 100060
+    second: Bear_r_HindLeg_BallSHJnt
+  - first:
+      1: 100062
+    second: Bear_r_HindLeg_HipSHJnt
+  - first:
+      1: 100064
+    second: Bear_r_HindLeg_KneeSHJnt
+  - first:
+      1: 100066
+    second: Bear_r_HindLeg_ToeSHJnt
+  - first:
+      1: 100068
+    second: Bear_ROOTSHJnt
+  - first:
+      1: 100070
+    second: Bear_Spine_01SHJnt
+  - first:
+      1: 100072
+    second: Bear_Spine_02SHJnt
+  - first:
+      1: 100074
+    second: Bear_Spine_03SHJnt
+  - first:
+      1: 100076
+    second: Bear_Spine_04SHJnt
+  - first:
+      1: 100078
+    second: Bear_Spine_TopSHJnt
+  - first:
+      1: 100080
+    second: Bear_Tail_01_01SHJnt
+  - first:
+      1: 100082
+    second: Bear_Tail_01_02SHJnt
+  - first:
+      4: 400000
+    second: Bear_Head_JawEndSHJnt
+  - first:
+      4: 400002
+    second: Bear_Head_JawSHJnt
+  - first:
+      4: 400004
+    second: Bear_Head_TopSHJnt
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      4: 400008
+    second: Bear_l_Clavicle_01_01SHJnt
+  - first:
+      4: 400010
+    second: Bear_l_Ear_01_01SHJnt
+  - first:
+      4: 400012
+    second: Bear_l_Ear_01_02SHJnt
+  - first:
+      4: 400014
+    second: Bear_l_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400016
+    second: Bear_l_FrontLeg_BallSHJnt
+  - first:
+      4: 400018
+    second: Bear_l_FrontLeg_HipSHJnt
+  - first:
+      4: 400020
+    second: Bear_l_FrontLeg_KneeSHJnt
+  - first:
+      4: 400022
+    second: Bear_l_FrontLeg_ToeSHJnt
+  - first:
+      4: 400024
+    second: Bear_l_HindLeg_AnkleSHJnt
+  - first:
+      4: 400026
+    second: Bear_l_HindLeg_BallSHJnt
+  - first:
+      4: 400028
+    second: Bear_l_HindLeg_HipSHJnt
+  - first:
+      4: 400030
+    second: Bear_l_HindLeg_KneeSHJnt
+  - first:
+      4: 400032
+    second: Bear_l_HindLeg_ToeSHJnt
+  - first:
+      4: 400034
+    second: Bear_MAINSHJnt
+  - first:
+      4: 400036
+    second: Bear_Neck_01SHJnt
+  - first:
+      4: 400038
+    second: Bear_Neck_02SHJnt
+  - first:
+      4: 400040
+    second: Bear_Neck_TopSHJnt
+  - first:
+      4: 400042
+    second: Bear_r_Clavicle_01_01SHJnt
+  - first:
+      4: 400044
+    second: Bear_r_Ear_01_01SHJnt
+  - first:
+      4: 400046
+    second: Bear_r_Ear_01_02SHJnt
+  - first:
+      4: 400048
+    second: Bear_r_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400050
+    second: Bear_r_FrontLeg_BallSHJnt
+  - first:
+      4: 400052
+    second: Bear_r_FrontLeg_HipSHJnt
+  - first:
+      4: 400054
+    second: Bear_r_FrontLeg_KneeSHJnt
+  - first:
+      4: 400056
+    second: Bear_r_FrontLeg_ToeSHJnt
+  - first:
+      4: 400058
+    second: Bear_r_HindLeg_AnkleSHJnt
+  - first:
+      4: 400060
+    second: Bear_r_HindLeg_BallSHJnt
+  - first:
+      4: 400062
+    second: Bear_r_HindLeg_HipSHJnt
+  - first:
+      4: 400064
+    second: Bear_r_HindLeg_KneeSHJnt
+  - first:
+      4: 400066
+    second: Bear_r_HindLeg_ToeSHJnt
+  - first:
+      4: 400068
+    second: Bear_ROOTSHJnt
+  - first:
+      4: 400070
+    second: Bear_Spine_01SHJnt
+  - first:
+      4: 400072
+    second: Bear_Spine_02SHJnt
+  - first:
+      4: 400074
+    second: Bear_Spine_03SHJnt
+  - first:
+      4: 400076
+    second: Bear_Spine_04SHJnt
+  - first:
+      4: 400078
+    second: Bear_Spine_TopSHJnt
+  - first:
+      4: 400080
+    second: Bear_Tail_01_01SHJnt
+  - first:
+      4: 400082
+    second: Bear_Tail_01_02SHJnt
+  - first:
+      74: 7400000
+    second: Bear_idle
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -106,10 +276,26 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Bear_Spine_01SHJnt' has translation animation
+      that will be discarded.\n\t'Bear_Spine_02SHJnt' has translation animation that
+      will be discarded.\n\t'Bear_Spine_03SHJnt' has translation animation that will
+      be discarded.\n\t'Bear_Spine_04SHJnt' has translation animation that will be
+      discarded.\n\t'Bear_Spine_04SHJnt' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Bear_Spine_TopSHJnt' has translation
+      animation that will be discarded.\n\t'Bear_Spine_TopSHJnt' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Bear_r_Clavicle_01_01SHJnt'
+      has translation animation that will be discarded.\n\t'Bear_r_FrontLeg_AnkleSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Bear_Neck_01SHJnt'
+      has translation animation that will be discarded.\n\t'Bear_Neck_02SHJnt' has
+      translation animation that will be discarded.\n\t'Bear_Neck_TopSHJnt' has translation
+      animation that will be discarded.\n\t'Bear_Neck_TopSHJnt' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -121,6 +307,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Bear_idle
       takeName: Take 001
+      internalID: 0
       firstFrame: 1
       lastFrame: 180
       wrapMode: 0
@@ -152,19 +339,31 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -172,12 +371,225 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Bear_Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_MAINSHJnt
+      parentName: Bear_Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_ROOTSHJnt
+      parentName: Bear_MAINSHJnt
+      position: {x: 0, y: 0.4478516, z: -0.1512028}
+      rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Spine_01SHJnt
+      parentName: Bear_ROOTSHJnt
+      position: {x: -5.0033296e-19, y: -0.010901657, z: 0.20962206}
+      rotation: {x: -0.46750453, y: 0.46750453, z: 0.5305087, w: 0.53050876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Spine_02SHJnt
+      parentName: Bear_Spine_01SHJnt
+      position: {x: -0.21007358, y: 2.6805234e-16, z: 0.015300928}
+      rotation: {x: 0.000000009111939, y: 0.029674742, z: 1.5256793e-10, w: 0.99955964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Spine_03SHJnt
+      parentName: Bear_Spine_02SHJnt
+      position: {x: -0.20937723, y: -6.068832e-17, z: 0.012817476}
+      rotation: {x: 0.9994434, y: -2.4513073e-16, z: -0.033360623, w: 5.2947808e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Spine_04SHJnt
+      parentName: Bear_Spine_03SHJnt
+      position: {x: -0.20990598, y: -7.040685e-17, z: -0.014002566}
+      rotation: {x: 3.0616168e-17, y: -3.330669e-16, z: 4.1919425e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Spine_TopSHJnt
+      parentName: Bear_Spine_04SHJnt
+      position: {x: -0.20990598, y: 2.451481e-17, z: -0.009311257}
+      rotation: {x: 3.0616168e-17, y: -1.110223e-16, z: -2.4894982e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_Clavicle_01_01SHJnt
+      parentName: Bear_Spine_TopSHJnt
+      position: {x: -2.842171e-16, y: -0.11383923, z: 1.4210854e-16}
+      rotation: {x: 0.2684034, y: -0.26840344, z: 0.7448137, w: 0.5487912}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_FrontLeg_HipSHJnt
+      parentName: Bear_l_Clavicle_01_01SHJnt
+      position: {x: -0.07104832, y: 0.050970983, z: 0.13958393}
+      rotation: {x: -0.68411446, y: 0.35982856, z: 0.2164747, w: 0.59636366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_FrontLeg_KneeSHJnt
+      parentName: Bear_l_FrontLeg_HipSHJnt
+      position: {x: -0.42784682, y: -8.171241e-16, z: -7.105427e-17}
+      rotation: {x: -0.0016600481, y: 0.048044153, z: -0.013258391, w: 0.9987558}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_FrontLeg_AnkleSHJnt
+      parentName: Bear_l_FrontLeg_KneeSHJnt
+      position: {x: -0.23569457, y: -8.5265126e-16, z: 7.105427e-17}
+      rotation: {x: -0.005108626, y: -0.27772537, z: -0.025620844, w: 0.96030515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_FrontLeg_BallSHJnt
+      parentName: Bear_l_FrontLeg_AnkleSHJnt
+      position: {x: -0.118188635, y: 0.0029754462, z: 0.10320048}
+      rotation: {x: 6.173423e-17, y: 0.7071068, z: -6.173423e-17, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_FrontLeg_ToeSHJnt
+      parentName: Bear_l_FrontLeg_BallSHJnt
+      position: {x: -0.14127527, y: 0, z: 8.442356e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_Clavicle_01_01SHJnt
+      parentName: Bear_Spine_TopSHJnt
+      position: {x: -2.1316282e-16, y: 0.11383923, z: -4.2632563e-16}
+      rotation: {x: -0.26840338, y: 0.2684035, z: 0.5487912, w: 0.7448136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_FrontLeg_HipSHJnt
+      parentName: Bear_r_Clavicle_01_01SHJnt
+      position: {x: 0.07104832, y: 0.050970983, z: 0.13958393}
+      rotation: {x: -0.36040893, y: 0.68022287, z: 0.60135776, w: 0.21394219}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_FrontLeg_KneeSHJnt
+      parentName: Bear_r_FrontLeg_HipSHJnt
+      position: {x: -0.42939532, y: -7.81597e-16, z: 3.5527135e-16}
+      rotation: {x: 0.006856469, y: -0.06955788, z: 0.01577253, w: 0.9974297}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_FrontLeg_AnkleSHJnt
+      parentName: Bear_r_FrontLeg_KneeSHJnt
+      position: {x: -0.23849401, y: 4.6540547e-15, z: 3.5527135e-16}
+      rotation: {x: 0.0012106745, y: -0.07849781, z: -0.010870303, w: 0.9968543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_FrontLeg_BallSHJnt
+      parentName: Bear_r_FrontLeg_AnkleSHJnt
+      position: {x: -0.118188635, y: -0.0029754462, z: 0.10320048}
+      rotation: {x: -0.021648843, y: 0.25042552, z: 0.07733682, w: 0.9647992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_FrontLeg_ToeSHJnt
+      parentName: Bear_r_FrontLeg_BallSHJnt
+      position: {x: -0.14127527, y: -7.105427e-17, z: 7.604594e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Neck_01SHJnt
+      parentName: Bear_Spine_TopSHJnt
+      position: {x: -0.21919471, y: -8.1832243e-17, z: -0.06472162}
+      rotation: {x: 0.000000029947394, y: -0.09947352, z: 0.000000009165638, w: 0.99504024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Neck_02SHJnt
+      parentName: Bear_Neck_01SHJnt
+      position: {x: -0.17113985, y: -8.6874e-17, z: -0.029521618}
+      rotation: {x: -0.000000024280238, y: -0.043994203, z: -0.0000000032019831, w: 0.9990318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Neck_TopSHJnt
+      parentName: Bear_Neck_02SHJnt
+      position: {x: -0.14583066, y: 7.302894e-17, z: -0.006467671}
+      rotation: {x: 0.000000018624203, y: 0.008925326, z: -0.0000000012754853, w: 0.9999602}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Head_JawSHJnt
+      parentName: Bear_Neck_TopSHJnt
+      position: {x: -0.18283798, y: 2.771967e-16, z: 0.117597885}
+      rotation: {x: -0.34406835, y: -0.34406835, z: 0.6177516, w: 0.6177516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Head_JawEndSHJnt
+      parentName: Bear_Head_JawSHJnt
+      position: {x: 1.0919463e-16, y: -0.038246185, z: 0.29390776}
+      rotation: {x: 0.7383863, y: 0, z: 0, w: 0.67437804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Head_TopSHJnt
+      parentName: Bear_Neck_TopSHJnt
+      position: {x: -0.3737868, y: 6.355349e-16, z: -0.015870344}
+      rotation: {x: -0.121232495, y: -0.121232495, z: 0.69663674, w: 0.69663674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_Ear_01_01SHJnt
+      parentName: Bear_Head_TopSHJnt
+      position: {x: -0.15585515, y: -0.19018942, z: -0.2851345}
+      rotation: {x: 0.5469879, y: -0.37765983, z: -0.10243717, w: 0.7400567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_Ear_01_02SHJnt
+      parentName: Bear_l_Ear_01_01SHJnt
+      position: {x: -0.047778744, y: -1.4210854e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_Ear_01_01SHJnt
+      parentName: Bear_Head_TopSHJnt
+      position: {x: 0.15585515, y: -0.19018942, z: -0.2851345}
+      rotation: {x: 0.5469879, y: 0.37765983, z: 0.10243717, w: 0.7400567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_Ear_01_02SHJnt
+      parentName: Bear_r_Ear_01_01SHJnt
+      position: {x: 0.047778744, y: 1.7763567e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_HindLeg_HipSHJnt
+      parentName: Bear_ROOTSHJnt
+      position: {x: -0.2235366, y: -0.15120275, z: -0.038952816}
+      rotation: {x: 0.4253722, y: -0.4758007, z: 0.5025302, w: 0.58321154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_HindLeg_KneeSHJnt
+      parentName: Bear_l_HindLeg_HipSHJnt
+      position: {x: -0.42256454, y: 2.842171e-16, z: 0}
+      rotation: {x: -5.061234e-16, y: -0.08505065, z: 2.6451436e-17, w: 0.99637663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_HindLeg_AnkleSHJnt
+      parentName: Bear_l_HindLeg_KneeSHJnt
+      position: {x: -0.21879241, y: 2.842171e-16, z: 4.2632563e-16}
+      rotation: {x: 0.04038149, y: 0.700212, z: 0.05381084, w: 0.710758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_HindLeg_BallSHJnt
+      parentName: Bear_l_HindLeg_AnkleSHJnt
+      position: {x: -0.12592505, y: 1.7763567e-16, z: 0.10508532}
+      rotation: {x: 0.00000004726897, y: 0.7071067, z: -0.000000047268962, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_l_HindLeg_ToeSHJnt
+      parentName: Bear_l_HindLeg_BallSHJnt
+      position: {x: -0.13182825, y: 3.5527136e-17, z: 5.43539e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_HindLeg_HipSHJnt
+      parentName: Bear_ROOTSHJnt
+      position: {x: 0.2235366, y: -0.15120275, z: -0.038952816}
+      rotation: {x: 0.47580066, y: -0.4253722, z: 0.58321154, w: 0.5025302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_HindLeg_KneeSHJnt
+      parentName: Bear_r_HindLeg_HipSHJnt
+      position: {x: -0.42256454, y: 2.1316282e-16, z: -7.105427e-17}
+      rotation: {x: -7.564606e-17, y: -0.08505065, z: -4.782738e-16, w: 0.99637663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_HindLeg_AnkleSHJnt
+      parentName: Bear_r_HindLeg_KneeSHJnt
+      position: {x: -0.21879241, y: 7.105427e-17, z: -2.842171e-16}
+      rotation: {x: -0.040381435, y: 0.70021206, z: -0.053810813, w: 0.71075803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_HindLeg_BallSHJnt
+      parentName: Bear_r_HindLeg_AnkleSHJnt
+      position: {x: -0.12592505, y: -3.5527135e-16, z: 0.10508532}
+      rotation: {x: -0.0000000495279, y: 0.7071067, z: 0.00000004952789, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_r_HindLeg_ToeSHJnt
+      parentName: Bear_r_HindLeg_BallSHJnt
+      position: {x: -0.13182825, y: -3.5527136e-17, z: 1.5167716e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Tail_01_01SHJnt
+      parentName: Bear_ROOTSHJnt
+      position: {x: -3.5740208e-16, y: -0.018736228, z: -0.28854218}
+      rotation: {x: -0.31861204, y: -0.6312578, z: 0.31861204, w: 0.6312578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bear_Tail_01_02SHJnt
+      parentName: Bear_Tail_01_01SHJnt
+      position: {x: -0.117161885, y: -7.105427e-16, z: 5.203033e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -185,14 +597,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

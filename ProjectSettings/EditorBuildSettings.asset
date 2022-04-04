@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Target Switcher.unity
-    guid: 337291181eb7a9a489e78d85ffc257de
+    path: Assets/Scenes/inHERITANCE2.unity
+    guid: 41ce0847eb8239649abe8486c522adc7
   m_configObjects: {}

@@ -2,15 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bear : Animal
+public class Bear : Animal   // <-----LOADS of INHERITANCE coming from this Animal parent class ;-)
 
 {
-    public Color Color;
+    //  public Color Color; // <-------- Might use this later to change the material color
 
-    public override void MakeSoundAndUI()
-    {
-        Debug.Log("roar"); // need to replace this code with audio play and UI display
-    }
 
     public void CatchFish()
     {

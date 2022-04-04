@@ -6,26 +6,25 @@ using TMPro;
 
 public class Animal : MonoBehaviour
 {
-	public string Name;
+	string targetTag = "Animal"; //make public if you want to change the tag to something besides Animal
+
 	public string Height;
 	public string Age;
+	public string Weight;
+
 	public GameObject ui_SpeechBubble;
 	public TMP_Text speechBubbleTMP;
 	public string speechBubbleText;
 	public AudioClip wav_Animal;
 	public AnimationClip anim_Die_Animal;
 	public AnimationClip anim_Idle_Animal;
-
-	public string targetTag = "TagOfTarget";
-	
 	public int maxHealth = 100;
-	public int currentHealth;
+	private int currentHealth;
 	public GameObject ui_HealthBar;
-	public Slider slider;
-	public Gradient gradient;
-	public Image fill;
-	public TMP_Text  cHealth;
-
+	public Slider hBarSlider;
+	public Gradient hBarGradient;
+	public Image hBarFill;
+	public TMP_Text cHealth;
 	public int damageAmount;
 
 	void Start()
@@ -33,8 +32,7 @@ public class Animal : MonoBehaviour
 		currentHealth = maxHealth;
 		SetMaxHealth(maxHealth);
 	}
-
-    private void Update()
+    private void Update() // dont use this unless i neeeeedz to.
     {
 		
 	}
@@ -50,7 +48,6 @@ public class Animal : MonoBehaviour
 			ui_SpeechBubble.SetActive(false);
 		}
 	}
-
 	public void OnMouseExit()
 	{
 		if (CompareTag(targetTag))
@@ -76,18 +73,16 @@ public class Animal : MonoBehaviour
 			}
 		}
 	}
-
 	public void SetMaxHealth(int health)
 	{
-		slider.maxValue = health;
-		slider.value = health;
-
-		fill.color = gradient.Evaluate(1f);
+		hBarSlider.maxValue = health;
+		hBarSlider.value = health;
+		hBarFill.color = hBarGradient.Evaluate(1f);
 	}
 	public void SetHealth(int health)
 	{
-		slider.value = health;
-		fill.color = gradient.Evaluate(slider.normalizedValue);
+		hBarSlider.value = health;
+		hBarFill.color = hBarGradient.Evaluate(hBarSlider.normalizedValue);
 		cHealth.SetText(currentHealth.ToString());
 	}
 	public void TakeDamage(int damageAmount)
@@ -95,17 +90,15 @@ public class Animal : MonoBehaviour
 		currentHealth -= damageAmount;
 		SetHealth(currentHealth);
 	}
-
-
     public virtual void MakeSoundAndUI()
 	{
 		AudioSource audioS = GetComponent<AudioSource>();
 		audioS.clip = wav_Animal;
 		audioS.Play();
 		speechBubbleTMP.SetText(speechBubbleText);
-		ui_SpeechBubble.SetActive(true); // enable UI speech bubble of that animals sound
+		ui_SpeechBubble.SetActive(true);
 	}
-	public virtual void Die() // play hurt animation clip Needt to fix animation code
+	public virtual void Die() 
 	{
 			Animation anim;
 			anim = GetComponent<Animation>();
@@ -118,6 +111,10 @@ public class Animal : MonoBehaviour
 		anim = GetComponent<Animation>();
 		anim.clip = anim_Idle_Animal;
 		anim.Play();
-		
 	}
+
+	public virtual void Revive()
+    {
+		currentHealth = maxHealth;
+    }
 }
