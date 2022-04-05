@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Frog : Animal
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject greenBlood;
+    public Transform gBloodSpawn;
+    public override void MakeSoundAndUI()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        base.MakeSoundAndUI();
+        Instantiate(greenBlood, gBloodSpawn.position, Quaternion.identity);
     }
 }

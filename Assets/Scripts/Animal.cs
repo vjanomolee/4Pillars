@@ -32,10 +32,7 @@ public class Animal : MonoBehaviour
 		currentHealth = maxHealth;
 		SetMaxHealth(maxHealth);
 	}
-    private void Update() // dont use this unless i neeeeedz to.
-    {
-		
-	}
+
     public void OnMouseEnter()
 	{
 		if (CompareTag(targetTag))
@@ -85,7 +82,7 @@ public class Animal : MonoBehaviour
 		hBarFill.color = hBarGradient.Evaluate(hBarSlider.normalizedValue);
 		cHealth.SetText(currentHealth.ToString());
 	}
-	public void TakeDamage(int damageAmount)
+	public virtual void TakeDamage(int damageAmount)
 	{
 		currentHealth -= damageAmount;
 		SetHealth(currentHealth);
