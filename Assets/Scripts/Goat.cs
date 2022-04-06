@@ -2,18 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Goat : Animal// <-----LOADS of INHERITANCE coming from this Animal parent class ;-)
-
+public class Goat : Animal// INHERITANCE
 {
-    public GameObject blood;
-    public Transform bloodSpawn;
-    public override void MakeSoundAndUI()
+    [Tooltip("Drag gameobject from the heirarchy w/particle system you want here")]
+    public GameObject redBlood;
+    public string myText;
+
+    public override void MakeSoundAndUI()                       // POLYMORPHISM
     {
-        base.MakeSoundAndUI();
-        Instantiate(blood, bloodSpawn.position, Quaternion.identity);
+        base.MakeSoundAndUI();// Run the base method         
+        abstractedMethod(); //and then do whatever else you want.
     }
-    public void SomeUniqueGoatMethod()
+    public void abstractedMethod()                               // ABSTRACTION
     {
-        Debug.Log("I convert food into spheres");//need to replace with unique animation
+        ParticleSystem ps = redBlood.GetComponent<ParticleSystem>();
+        ps.Play();
+        SpeechBubbleTMP.SetText(myText);    // ENCAPSULATION
+    }   // SpeechBubbleTMP is Encapsulated from base class
+    public void SomeUnusedGoatMethod()
+    {
+        Debug.Log("I convert food into spheres");
     }
 }

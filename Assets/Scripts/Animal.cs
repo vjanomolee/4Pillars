@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class Animal : MonoBehaviour
 {
@@ -13,8 +14,22 @@ public class Animal : MonoBehaviour
 	public string Weight;
 
 	public GameObject ui_SpeechBubble;
-	public TMP_Text speechBubbleTMP;
-	public string speechBubbleText;
+	
+	[SerializeField]
+	private TMP_Text speechBubbleTMP;
+	public TMP_Text SpeechBubbleTMP
+	{
+		get
+		{
+			return speechBubbleTMP;
+		}
+		set
+		{
+			speechBubbleTMP = value;
+		}
+	}
+
+	//public string speechBubbleText;
 	public AudioClip wav_Animal;
 	public AnimationClip anim_Die_Animal;
 	public AnimationClip anim_Idle_Animal;
@@ -92,15 +107,15 @@ public class Animal : MonoBehaviour
 		AudioSource audioS = GetComponent<AudioSource>();
 		audioS.clip = wav_Animal;
 		audioS.Play();
-		speechBubbleTMP.SetText(speechBubbleText);
+		//speechBubbleTMP.SetText(speechBubbleText);
 		ui_SpeechBubble.SetActive(true);
 	}
 	public virtual void Die() 
 	{
-			Animation anim;
-			anim = GetComponent<Animation>();
-			anim.clip = anim_Die_Animal;
-			anim.Play();
+		Animation anim;
+		anim = GetComponent<Animation>();
+		anim.clip = anim_Die_Animal;
+		anim.Play();
 	}
 	public virtual void ChillState()
 	{

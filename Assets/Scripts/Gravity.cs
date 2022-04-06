@@ -21,5 +21,4 @@ public class Gravity : MonoBehaviour
         gameObject.GetComponent<Rigidbody>().useGravity = false;
         transform.Translate(0, 10, 0, Space.World);
     }
-
 }

@@ -2,19 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bear : Animal   // <-----LOADS of INHERITANCE coming from this Animal parent class ;-)
-
+public class Bear : Animal                                      // INHERITANCE
 {
-    public GameObject blood;
-    public Transform bloodSpawn;
-    public override void MakeSoundAndUI()
-    {
-        base.MakeSoundAndUI();
-        Instantiate(blood, bloodSpawn.position, Quaternion.identity);
-    }
+    [Tooltip("Drag gameobject from the heirarchy w/particle system you want here")]
+    public GameObject redBlood;
 
-    public void CatchFish()
+    public override void MakeSoundAndUI()                       // POLYMORPHISM
     {
-        Debug.Log("I just caught a fish");//need to replace with unique animation
+        base.MakeSoundAndUI();// Run the base method         
+        abstractedMethod(); //and then do whatever else you want.
     }
+    public void abstractedMethod ()                               // ABSTRACTION
+    {
+        ParticleSystem ps = redBlood.GetComponent<ParticleSystem>();
+        ps.Play();
+        SpeechBubbleTMP.SetText("My Bear script INHERITS many great things from my Animal parent class! " +
+            "Like my healthbar and THIS Talk bubble! ROAR!");    // ENCAPSULATION
+    }   // SpeechBubbleTMP is Encapsulated from base class
 }
