@@ -10,13 +10,14 @@ public class Bear : Animal                                      // INHERITANCE
     public override void MakeSoundAndUI()                       // POLYMORPHISM
     {
         base.MakeSoundAndUI();// Run the base method         
-        abstractedMethod(); //and then do whatever else you want.
+        AbstractedMethod(); //and then do whatever else you want.
+        ExplanationInheritance(); // // enable the animated title and explanation overlay UI
     }
-    public void abstractedMethod ()                               // ABSTRACTION
+    public void AbstractedMethod ()                               // ABSTRACTION
     {
         ParticleSystem ps = redBlood.GetComponent<ParticleSystem>();
         ps.Play();
         SpeechBubbleTMP.SetText("My Bear script INHERITS many great things from my Animal parent class! " +
-            "Like my healthbar and THIS Talk bubble! ROAR!");    // ENCAPSULATION
+            "Like my healthbar, ability to take damage, and THIS Talk bubble! ROAR!");    // ENCAPSULATION
     }   // SpeechBubbleTMP is Encapsulated from base class
 }

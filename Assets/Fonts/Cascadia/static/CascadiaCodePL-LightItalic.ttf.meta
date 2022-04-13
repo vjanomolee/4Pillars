@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 8366539886799d14891e06cc288fc8f4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cascadia Code PL
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 73be65b2976f09b48971172a8f2f000e, type: 3}
+  - {fileID: 12800000, guid: 136d7fff7ae74074f9d69cc13fd518d8, type: 3}
+  - {fileID: 12800000, guid: 61042ac1039298a48953735ad902fd21, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

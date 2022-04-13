@@ -8,11 +8,10 @@ using System;
 public class Animal : MonoBehaviour
 {
 	string targetTag = "Animal"; //make public if you want to change the tag to something besides Animal
-
-	public string Height;
-	public string Age;
-	public string Weight;
-
+	public GameObject expAbstraction;
+	public GameObject expEncapsulation;
+	public GameObject expPolymorphism;
+	public GameObject expInheritance;
 	public GameObject ui_SpeechBubble;
 	
 	[SerializeField]
@@ -73,7 +72,7 @@ public class Animal : MonoBehaviour
 			}
 		}
 	}
-	public void OnMouseDown()
+	public virtual void OnMouseDown()
 	{
 		if (CompareTag(targetTag))
 		{
@@ -107,7 +106,6 @@ public class Animal : MonoBehaviour
 		AudioSource audioS = GetComponent<AudioSource>();
 		audioS.clip = wav_Animal;
 		audioS.Play();
-		//speechBubbleTMP.SetText(speechBubbleText);
 		ui_SpeechBubble.SetActive(true);
 	}
 	public virtual void Die() 
@@ -129,4 +127,37 @@ public class Animal : MonoBehaviour
     {
 		currentHealth = maxHealth;
     }
+
+	public virtual void ExplanationInheritance()
+	{
+		expAbstraction.SetActive(false);
+		expEncapsulation.SetActive(false); 
+		expPolymorphism.SetActive(false);
+		expInheritance.SetActive(true); 
+	}
+	
+	public void ExplanationPolymorphism()
+	{
+
+		expAbstraction.SetActive(false);
+		expEncapsulation.SetActive(false);  
+		expPolymorphism.SetActive(true);
+		expInheritance.SetActive(false); 
+	} 
+
+    public void ExplanationEncapsulation()
+	{
+		expAbstraction.SetActive(false);
+		expEncapsulation.SetActive(true);  
+		expPolymorphism.SetActive(false);
+		expInheritance.SetActive(false); 
+	}
+
+	public void ExplanationAbstraction()
+	{
+		expAbstraction.SetActive(true);
+		expEncapsulation.SetActive(false);  
+		expPolymorphism.SetActive(false);
+		expInheritance.SetActive(false);
+	}
 }

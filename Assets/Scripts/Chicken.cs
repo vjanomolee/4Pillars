@@ -11,9 +11,10 @@ public class Chicken : Animal                 // INHERITANCE
     public override void MakeSoundAndUI()                       // POLYMORPHISM
     {
         base.MakeSoundAndUI();// Run the base method         
-        abstractedMethod(); //and then do whatever else you want.
+        AbstractedMethod(); //and then do whatever else you want.
+        ExplanationEncapsulation(); // enable the animated title and explanation overlay UI
     }
-    public void abstractedMethod()                               // ABSTRACTION
+    public void AbstractedMethod()                               // ABSTRACTION
     {
         ParticleSystem ps = feathers.GetComponent<ParticleSystem>();
         ps.Play();

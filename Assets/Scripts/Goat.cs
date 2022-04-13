@@ -11,16 +11,14 @@ public class Goat : Animal// INHERITANCE
     public override void MakeSoundAndUI()                       // POLYMORPHISM
     {
         base.MakeSoundAndUI();// Run the base method         
-        abstractedMethod(); //and then do whatever else you want.
+        AbstractedMethod(); //and then do whatever else you want.
+        ExplanationPolymorphism(); // enable the animated title and explanation overlay UI
     }
-    public void abstractedMethod()                               // ABSTRACTION
+    public void AbstractedMethod()                               // ABSTRACTION
     {
         ParticleSystem ps = redBlood.GetComponent<ParticleSystem>();
         ps.Play();
         SpeechBubbleTMP.SetText(myText);    // ENCAPSULATION
     }   // SpeechBubbleTMP is Encapsulated from base class
-    public void SomeUnusedGoatMethod()
-    {
-        Debug.Log("I convert food into spheres");
-    }
+   
 }

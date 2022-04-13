@@ -11,9 +11,10 @@ public class Frog : Animal  // INHERITANCE
     public override void MakeSoundAndUI()                       // POLYMORPHISM
     {
         base.MakeSoundAndUI();// Run the base method         
-        abstractedMethod(); //and then do whatever else you want.
+        AbstractedMethod(); //and then do whatever else you want.
+        ExplanationAbstraction(); // enable the animated title and explanation overlay UI
     }
-    public void abstractedMethod()                               // ABSTRACTION
+    public void AbstractedMethod()                               // ABSTRACTION
     {
         ParticleSystem ps = greenBlood.GetComponent<ParticleSystem>();
         ps.Play();
